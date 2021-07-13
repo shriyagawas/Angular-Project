@@ -1,0 +1,169 @@
+.fa-home
+{
+    color: black;
+}
+
+.fa-user
+{
+    color: black;
+}
+
+.fa-book
+{
+    color: black;
+}
+
+.fa-book
+{
+    color: black;
+   
+   
+}
+.fa-user
+{
+    color: black;
+}
+
+.fa-save
+{
+    color: black;
+}
+
+.fa-save
+
+{
+    color: black;
+}
+.fa-cog  
+{
+    color: black ;
+}
+
+h2{
+    color: black;
+    text-transform: capitalize;
+}
+.containerTitle
+{
+    display: flex;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.AddEmployeeTitileContainer
+{
+    display: flex;
+}
+.one{
+    flex: 1;
+    padding: 10px;
+}
+.addEmployeeBtnContainer
+{
+    flex: 1;
+    background-color: rgb(245, 240, 255);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tableWrapper
+{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: azure;
+}
+.addNewEmployeeBtn
+{
+    width: 100px;;
+    height: 35px;
+   line-height: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    }
+.deleteEmployeeTitleContainer{
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 10x;
+    font-weight: bold;
+}
+.addEmployeeTitileContainer
+{
+    background: honeydew;
+    padding: 20px 20px 0px  20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+}
+.editEmployeeTitleContainer
+{
+    background: rgb(184, 201, 184);
+    padding: 20px 20px 0px 20px;
+    font-style: italic;
+    font-size:22px ;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.oneTitle{
+flex: 1;
+padding: 10px;
+background: grey;
+color: white;
+}
+ .input{
+    border: none;
+    height: 32px;
+    padding-left: 10px;
+    width: 60%;
+    border-radius: 5px;
+} 
+.positionInput{
+    border: none;
+    height: 32px;
+    padding-left: 10px;
+    width: 60%;
+    border-radius: 5px;
+} 
+.saveBtn{
+    background: green;
+     color: white;
+    border: none;
+    width: 100px;
+    height: 30px; 
+     cursor: pointer;
+    border-radius: 3px; 
+    align-items: center;
+}
+ .submitBtnContainer{
+    padding-left: 5px;
+    } 
+.two{
+    flex: 1;
+    padding: 10px;
+}
+.twoTitle{
+    flex: 1;
+    padding: 10px;
+    background: grey;
+    color:white;
+}
+.three{
+    flex: 1;
+padding: 10px;
+}
+.threeTitle{
+    flex: 1;
+    padding: 10px;
+    background: grey;
+    color:white;
+}
+.containerListItem{
+    display: flex;
+}
+.btn-dark{
+    margin-left: 10px;
+}

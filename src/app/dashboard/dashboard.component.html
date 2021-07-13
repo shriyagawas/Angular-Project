@@ -1,0 +1,351 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+<!-- <style>
+       body{
+           background-color:rgb(173, 215, 228);
+      }
+   </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkV6ePM31_pvUTYF8fO-47iMg9sPioHe7kjw&usqp=CAU" alt="logo" style="width: 90px;">
+            </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            </ul>
+<form class="form-inline my-2 my-lg-0">
+  <a class="nav-link" href="#"><i class=" fa fas fa-bell fa-bell fa-3x "></i><span class="sr-only"></span></a>
+<a class="nav-link" href="#"><i class=" fa far fa-comments fa-3x"></i><span class="sr-only"></span></a>
+<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form>
+        </div>
+      </nav>
+    <div>
+  <div class="card bg-dark text-white ">
+  <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpsYeCccm0bZpVIqdB0k-v7KAg3j9PCVGD_Q&usqp=CAU" alt="Card image" style="height: 200px;"> 
+  <div class="card-img-overlay">
+    <h5 class="card-title" >
+      <strong style="font-size:xx-large;">WELCOME to Dashboard !!</strong>
+    </h5>
+    </div>
+</div>
+<div class="row">
+ <div class="col-sm">
+<div class="card">
+<div class="card-body" style="background-color: darkgray;" >
+<div class="card-deck" style="margin-top: 5%; margin-left: 20%; margin-right: 20%;">
+  <div class="card" style="align-content: center; align-items: center; background-color: rgb(165, 12, 25);">
+  <i class=" fa fas fa-home fa-4x"></i>
+  <div class="card-body" style="text-align: center; ">
+  <button type="button" mat-button routerLink="/dashboard">HOME</button>
+ </div>
+  </div>
+  <div class="card" style="align-content: center; align-items: center; background-color: rgb(165, 12, 25);">
+  <i class=" fa fas fa-book fa-4x"></i> 
+  <div class="card-body">
+  <button type="button" mat-button (click)="pclick()" routerLink="policy">POLICIES</button>
+  </div>
+  </div>
+<div class="card" style="align-content: center; align-items: center; background-color: rgb(165, 12, 25);">
+<i class=" fa fas fa-book fa-4x"></i>
+ <div class="card-body">
+<button type="button" mat-button (click)="prj()" routerLink="project">PROJECTS</button>
+</div>
+</div>
+</div>
+ <div class="card-deck"style="margin-top: 5%; margin-left: 20%; margin-right: 20%;">
+<div class="card" style="align-content: center; align-items: center; background-color: rgb(165, 12, 25);">
+<i class=" fa fas fa-save fa-4x"></i>
+<div class="card-body">
+<button type="button" mat-button (click)="pay()" routerLink="payroll">PAYROLL</button>
+</div>
+</div>
+<div class="card" style="align-content: center; align-items: center; background-color: rgb(165, 12, 25);">
+<i class=" fa fas fa-file fa-4x"></i>
+<div class="card-body">
+<button type="button" mat-button (click)="reports()" routerLink="reports">REPORTS</button>
+</div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm">
+<div class="card" style="background-color: rgb(234, 239, 248);">
+<div class="card-body">
+<div class="container"> 
+<div class="AddEmployeeTitleContainer">
+<div>
+<h1 style="background-color: rgb(104, 124, 84); "> <i class=" fa fas fa-users fa-3x"></i> ADMINBLOG</h1>
+</div>
+<div class="addemployeebtncontainer">
+<div class="addNewEmployeeBtn">
+<button  class="btn btn-success"(click)="addNewEmployee()">ADD EMPLOYEE</button>
+</div>
+</div>
+<div *ngIf="newEmployeeClicked">
+<div class="formWrapper">
+<form #regForm='ngForm'(ngSubmit)="addEmployee(regForm)">
+<div class="form-group name">
+<input type="text" class="form-control input" id="name" name="name"[(ngModel)]="model.name" placeholder="Enter Full Name" required>
+</div>
+<div class="form-group position">
+<input type="text" class="form-control input" id="position" name="position" [(ngModel)]="model.position" placeholder="Enter Employee Position" required>
+</div>
+<div class="submitBtnContainer">
+<button type="submit" class="btn btn-success" style="width: 100px;"[disabled]="!regForm.valid" >SAVE</button>
+</div>
+</form>
+</div>
+</div>
+<div class="tableWrapper">
+<div class="containerTitle">
+<div class="oneTitle"><strong>FULLNAME</strong></div>
+<div class="twoTitle"><strong>POSITION</strong></div>
+<div class="threeTitle"><strong>ACTION</strong></div>
+</div>
+<div class="containerListItem" *ngFor="let employee of employees ; let i = index" [style.background-color]="changeColorOne()">
+<div class="one">{{employee.name}}</div>
+<div class="two">{{employee.position}}</div>
+<div class="three">
+<button class="btn btn-primary" style="width: 100px;" (click)="editEmployee(i)">EDIT</button> &nbsp; 
+<button class="btn btn-danger"style="width: 100px;" (click)="deleteEmployee(i)">DELETE</button>
+</div>
+</div>
+</div>
+<div class="deleteEmployeeTitleContainer">
+<div class="">Edit Employee</div>
+</div>
+<form action="">
+<div class="form-group name">
+<input type="text" class="form-control" id="name" name="name" [(ngModel)]="model2.name"placeholder="Employee Full Name">
+</div>
+<div class="form-group position">
+<input type="text" class="form-control" id="position" name="position" [(ngModel)]="model2.position"placeholder="Employee Position">
+</div>
+<div>
+<button class="btn btn-dark" type="submit"style="width: 100px;" (click)= "updateEmployee()">UPDATE</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</body>
+</html>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-light bg-primary">
+  <div class="container-fluid">
+    <h1 style="color: aliceblue;">ADMIN PANNEL</h1>
+    <div class="d-flex">
+      <button class="btn btn-success"type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">Add Employee Details</button>
+    </div>
+
+  </div>
+</nav>
+
+<table class="table mt-3">
+  <thead>
+    <tr>
+      <th scope=col>Employee Id</th>
+      <th scope=col>First Name</th>
+      <th scope=col>Last Name</th>
+      <th scope=col>Email Id</th>
+      <th scope=col>Mobile no.</th>
+      <th scope=col>Salary</th>
+      <th scope="col">Action</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>fgfg</td>
+      <td>yadan</td>
+      <td>154545@gmail.com</td>
+      <td>1245487896</td>
+      <td>500000</td>
+      <td>
+        <button class="btn btn-primary">edit</button>
+        <button class="btn btn-danger mx-3">delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Employee Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="formValue">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">FIRST NAME</label>
+            <input type="text" formControlName="firstName"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">LAST NAME</label>
+            <input type="text"formControlName="lastName" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">EMAIL ADDRESS</label>
+            <input type="email"formControlName="email" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">MOBILE NO</label>
+            <input type="email"formControlName="mobile" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">SALARY</label>
+            <input type="email"formControlName="salary" class="form-control" id="exampleInputPassword1">
+          </div>
+         
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary"(click)="postEmployeeDetails()">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+

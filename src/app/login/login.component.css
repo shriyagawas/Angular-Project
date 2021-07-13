@@ -1,0 +1,19 @@
+.card
+{
+    align-content: center;
+    margin: auto;
+    display:ruby-base-container;
+     background-color:pink;
+}
+#mail
+{
+    font-size: 30px;
+}
+#pass
+{
+    font-size: 30px;
+}
+a {
+    color: chartreuse;
+    margin-left: 25px;
+}

@@ -1,0 +1,24 @@
+
+
+
+document.getElementById("car-form");
+
+document.addEventListener("submit",function(event)
+
+{
+    event.preventDefault();
+var email = document.getElementById("email").Value;
+var pwd= document.getElementById("pwd").Value
+
+if(!email || !pwd){
+    return;
+}
+
+var carInfo = {
+    email:email,
+    pwd:pwd,
+}
+localStorage.setItem("carInfo", carInfo);
+});
+
+
